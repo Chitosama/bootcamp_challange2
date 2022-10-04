@@ -1,18 +1,85 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/style.css" />
     <title>Portfolio_Resume</title>
-</head>
-<body>
-    <!-- Make Header Banner -->
+  </head>
+  <body>
+    <!-- Make Header -->
+    <header>
+      <h1>Look What I Can Do</h1>
+      <!-- Make Nave linking to other pages -->
+      <nav>
+        <a href="#about">About Me</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact</a>
+        <a href="#resume">Resume</a>
+      </nav>
+    </header>
 
-    <!-- Make Nav linking to other pages -->
+    <!-- Make Header Banner -->
+    <section class="bruce-banner">
+      <div>
+        <h1>I am alive!</h1>
+      </div>
+    </section>
 
     <!-- Make cards/sections for each item -->
+    <main class="main-wrapper">
+      <!-- about me section -->
+      <section class="cards" id="me">
+        <h2>About Me</h2>
+        <div>
+          <p>
+            As a husband and father of 3, I have had the privilage of having a
+            growing ability for patience. Patience with marriage, kids and
+            growing pains. Between Disney family outings, San Diego Comic Con
+            outings and family gatherings there is so much to experience, learn
+            and have patience for those around you to learn and grow.
+          </p>
+          <p>
+            As a growing engineer. I am looking for a place to contribut and
+            learn. My experiences have lead me to understanding many different
+            paths. Currently I am Sr. Solutions Enigineer who works specifically
+            with API implementations against our API. Prior to this I assisted
+            with testing as a QA enginer and prior to that I lead a support
+            team. I am a proven and test life long learner as I got my degree
+            while working and am now doing a Bootcamp while working.
+          </p>
+        </div>
+      </section>
 
-    <!-- Footer to contain contact info -->
-</body>
+      <!-- work section -->
+      <section class="section-style" id="work-style">
+        <h2>Work</h2>
+        <div class="work-container">
+          <a
+            href="#https://github.com/Chitosama/bootcamp_challenge1"
+            class="work-item"
+          >
+            <div>
+              <h3>First Challange</h3>
+            </div>
+          </a>
+          <a
+            href="#https://github.com/Chitosama/bootcamp_challange2"
+            class="work-item"
+          >
+            <h3>Second Challange</h3>
+          </a>
+        </div>
+      </section>
+
+      <!-- contact me -->
+      <section class="section-style" id="contact-style">
+        <h2>Contact Me</h2>
+        <div>
+          <a href="phone">NUMBER</a>
+          <a href="mailto:josecueto090@gmail.com">Email Me</a>
+          <a href="#https://github.com/Chitosama">Checkout Github</a>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
